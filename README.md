@@ -12,13 +12,13 @@ a multi cheat loader for so2
 скачать на телефон
 aarch64:
 
-cheat_so2_loader.zip https://github.com/user-attachments/files/21022347/cheat_so2_loader.zip
+cheat_so2_loader.zip https://github.com/user-attachments/files/21023454/cheat_so2_loader.zip
 
 -------------------------------------------------------------------------------------------------------
 скачать на эмулятор
 emulators:
 
-cheat_so2_loader-x86.zip https://github.com/user-attachments/files/21022651/cheat_so2_loader-x86.zip
+cheat_so2_loader-x86.zip https://github.com/user-attachments/files/21023457/cheat_so2_loader-x86.zip
 
 -------------------------------------------------------------------------------------------------------
 
