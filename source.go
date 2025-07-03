@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os/exec"
 )
 
@@ -10,8 +11,15 @@ func p(print string) {
 }
 
 func hrun(cheat string) {
-	exec.Command("su", "-c", "chmod", "a=rwx", cheat).Run()
-	exec.Command("su", "-c", "exec "+cheat).Run()
+	chmodCmd := exec.Command("chmod", "a=rwx", cheat)
+	if err := chmodCmd.Run(); err != nil {
+		log.Printf("Ошибка изменения прав: %v", err)
+		return
+	}
+	runCmd := exec.Command(cheat)
+	if err := runCmd.Run(); err != nil {
+		log.Printf("Ошибка выполнения: %v", err)
+	}
 }
 
 func crun(cmd string) {
