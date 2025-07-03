@@ -1,5 +1,5 @@
 # so2_multi_cheat_loader_aarch64
-a multi cheat loader for so2
+a multi cheat loader for standoff2
 -------------------------------------------------------------------------------------------------------
 Запускает чит через shell команду exec,
 написан на golang
